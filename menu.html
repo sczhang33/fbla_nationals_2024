@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="x-icon"
+      href="FBLAImages/carollee-logo.jpeg"
+    />
+    <title>Carol Lee Donuts Menu</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/full-menu.css" />
+    <link rel="stylesheet" href="styles/jsmenu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu-top">
+        <img class="carollee-logo" src="FBLAImages/carollee-logo.jpeg" />
+        <div class="navigation-container">
+          <nav>
+            <a href="index.html">home</a>
+            <a href="menu.html">menu</a>
+            <a href="newsletter.html">newsletter</a>
+            <a href="contact-us.html">contact us</a>
+            <a href="about-us.html">about us</a>
+          </nav>
+        </div>
+        <a href="menu.html">
+          <button class="order-now-button">Order Now!</button>
+        </a>
+      </div>
+    </header>
+
+    <div
+      class="header"
+      style="background-image: url(FBLAImages/menu-background.jpg)"
+    >
+      <h3 class="title-smalltext">donuts</h3>
+      <h1 class="title">Carol Lee Donuts</h1>
+      <div class="title-under">Menu</div>
+    </div>
+
+    <div class="menu-img-container">
+      <img
+        class="carollee-menu-img"
+        src="FBLAImages/carollee-menu-img2.png"
+        alt="carol lee menu"
+      />
+    </div>
+
+    <!-- JS Cart Quantity-->
+    <div class="js-cart-container cart-container">
+      <div class="js-cart-quantity cart-quantity">Cart Quantity: 0</div>
+      <div class="js-donut-order donut-order-grid"></div>
+      <div class="js-total total">Total: $0</div>
+      <button class="js-reset-cart reset-cart">Reset Cart</button>
+      <button class="js-place-order place-order">Place Order</button>
+      <div class="js-warning warning"></div>
+    </div>
+
+    <div class="js-place-order-message place-order-message"></div>
+    <div class="js-finished-order-message finished-order-message"></div>
+    <div class="js-delivering delivering"></div>
+    <div class="js-delivered delivered"></div>
+    <!--Fin.-->
+
+    <h1>Regular Donuts</h1>
+    <div class="regular-donuts">
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'vanilla iced', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/vanilla-iced.png" alt="vanilla-iced"/>
+        Vanilla Iced
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'vanilla iced w/ sprinkles', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/vanilla-iced-sprinkles.png" alt="vanilla-iced-sprinkles"/>
+        Vanilla Iced w/Sprinkles
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'chocolate iced', 100); renderDonutList(100);">
+        <img class="donut-big" src="carollee-donuts-imgs/chocolate-iced.png" alt="chocolate-iced"/>
+        Chocolate Iced
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'chocolate iced w/ sprinkles', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/chocolate-iced-sprinkles.png" alt="chocolate-iced-sprinkles"/>
+        Chocolate Iced w/Sprinkles
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'chocolate iced w/ peanuts', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/chocolate-iced-nuts.png" alt="chocolate-iced-nuts"/>
+        Chocolate Iced w/Peanuts
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'granulated sugar', 100); renderDonutList(100);">
+        <img class="donut-big" src="carollee-donuts-imgs/granulated-sugar2.png"
+        alt="granulated-sugar">
+        <div class="text-big">Granulated Sugar</div>
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'cinnamon sugar', 100); renderDonutList(100);">
+        <img class="donut-big" src="carollee-donuts-imgs/cinnamon-sugar2.png" alt="cinnamon-sugar">
+        <div class="text-big">Cinnamon Sugar</div>
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'original glazed', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/glazed.png" alt="glazed">
+        Glazed
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'maple iced', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/maple-iced.png" alt="maple-iced"/>
+        Maple Iced
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'maple iced w/ peanuts', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/maple-iced-nuts.png" alt="maple-iced-nuts"/>
+        Maple Iced w/Peanuts
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'white coconut', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/white-coconut2.png" alt="white-coconut">
+        <div>White Coconut</div>
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'toasted coconut', 100); renderDonutList(100);">
+        <img class="donut-big"src="carollee-donuts-imgs/toasted-coconut2.png" alt="toasted-coconut">
+        <div class="text-big">Toasted Coconut</div>
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, `cookies n' cream`, 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/cookies-and.cream.png" alt="cookies n cream"/>
+        Cookies n' Cream
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'old fashion &#40plain cake&#41', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/plain-donut.png" alt="old-fashioned"/>
+        Old Fashion &#40Plain Cake&#41;
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'cinnamon sugar cake', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/cinnamon-sugar-cake.png" alt="cinnamon-sugar-cale">
+        Cinnamon Sugar Cake
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'powdered sugar cake', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/powdered-sugar.png" alt="powdered-sugar"/>
+        Powdered Sugar Cake
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'chocolate iced cake', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/chocolate-iced-cake.png" alt="chocolate-iced-cake">
+        Chocolate Iced Cake
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'blueberry cake', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/blueberry-cake.png" alt="blueberry-cake">
+        Blueberry Cake
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'chocolate iced devils food', 100); renderDonutList(100);">
+        <img class="donut" src="carollee-donuts-imgs/chocolate-iced-devils-food.png" alt="chocolate-iced-devils-food">
+        Chocolate Iced Devils Food Cake &#40Also available glazed&#41;
+      </div>
+      
+    </div>
+
+    <h1 class="handmade">Handmade</h1>
+    <div class="handmade-donuts">
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'cinnamon twist', 180); renderDonutList(180);">
+        <img class="filleddonut" src="carollee-donuts-imgs/cinnamon-twist-bright.png" alt="cinnamon-twist"/>
+        Cinnamon Twist
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'cinnamon roll', 180); renderDonutList(180);">
+        <img class="filleddonut" src="carollee-donuts-imgs/cinnamon-roll.png" alt="cinnamon-roll"/>
+        Cinnamon Roll
+      </div>
+    </div>
+
+    <h1 class="filled">Filled</h1>
+    <div class="filled-donuts">
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'bavarian cream', 160); renderDonutList(160);">
+        <img class="donut" src="carollee-donuts-imgs/bavarian-cream.png" alt="bavarian-cream">
+        Bavarian Cream
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'white delight', 160); renderDonutList(160);">
+        <img class="donut" src="carollee-donuts-imgs/white-iced-filled.png" alt="white-iced-filled"/>
+        White Delight
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'raspberry', 160); renderDonutList(160);">
+        <img class="donut" src="carollee-donuts-imgs/raspberry.png" alt="raspberry-filled"/>
+        Raspberry
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'apple filled', 160); renderDonutList(160);">
+        <img class="donut" src="carollee-donuts-imgs/apple-filled-bright.png" alt="apple-filled"/>
+        Apple
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, 'lemon', 160); renderDonutList(160);">
+        <img class="donut" src="carollee-donuts-imgs/lemon.png" alt="lemon"/>
+        Lemon
+      </div>
+      <div class="regular-donut-container" onclick="updateCartQuantity(1, `manager's choice`, 160); renderDonutList(160);">
+        <img class="question-mark" src="FBLAImages/question-mark.png" alt="question mark">
+        <div class="text-new">Manager's Choice</div>
+      </div>
+    </div>
+
+    <footer class="footer-container">
+      <div class="socialicons">
+        <div class="socialicons">
+          <a href="https://www.facebook.com/carolleedonuts/" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/carol_lee_donuts/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/CarolLeeDonuts" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footernav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 by <span class="designer">Sadie</span></p>
+    </div>
+    <script src="scripts/menu.js"></script>
+    <script>
+      window.embeddedChatbotConfig = {
+      chatbotId: "BF5QeofuXdN2YLnleaMIP",
+      domain: "www.chatbase.co"
+      }
+      </script>
+      <script
+      src="https://www.chatbase.co/embed.min.js"
+      chatbotId="BF5QeofuXdN2YLnleaMIP"
+      domain="www.chatbase.co"
+      defer>
+      </script>
+  </body>
+</html>

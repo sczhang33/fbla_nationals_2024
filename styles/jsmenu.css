@@ -1,0 +1,88 @@
+.cart-container {
+  padding-left: 30px;
+  font-family: system-ui;
+}
+
+.cart-quantity {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.reset-cart,
+.place-order {
+  background-color: palevioletred;
+  border: none;
+  border-radius: 26px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 16px 14px 16px;
+  margin-top: 10px;
+}
+
+.place-order {
+  margin-left: 7px;
+}
+.donut-order-grid {
+  display: grid;
+  font-size: 18px;
+  grid-template-columns: 150px 100px 150px;
+  row-gap: 10px;
+}
+
+.delete-button {
+  background-color: rgb(212, 78, 78);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.warning {
+  padding-top: 20px;
+}
+
+.yes-button,
+.no-button {
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  font-family: system-ui;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+
+.yes-button:hover,
+.no-button:hover {
+  cursor: pointer;
+}
+
+.yes-button {
+  margin-right: 8px;
+  margin-left: 7px;
+}
+
+.order-placed {
+  font-size: 20px;
+}
+.place-order-message,
+.finished-order-message,
+.delivering,
+.delivered {
+  font-family: system-ui;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 20px;
+}

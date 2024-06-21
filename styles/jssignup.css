@@ -1,0 +1,19 @@
+.signed-up-container {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.gif-container {
+  overflow: hidden;
+}
+
+.homer-donut-gif {
+  margin-top: 50px; /* CAN'T USE PADDING because padding removes the roundness (space inside isn't a straight line with roundness) */
+  max-width: 100%;
+  height: auto; 
+  border-radius: 20px; 
+}

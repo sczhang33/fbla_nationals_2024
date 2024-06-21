@@ -1,0 +1,99 @@
+.donut {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.question-mark {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding-top: 50px;
+}
+
+.donut-big {
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    padding-top: 10px;
+}
+
+.donut3 {
+    object-fit: contain;
+    height: 190px;
+    width: 190px;
+    margin-top: 76px;
+    
+}
+
+.text-new {
+    padding-top: 100px;
+}
+
+.text-big {
+    padding-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: system-ui;
+    padding-bottom: 40px;
+}
+
+.handmade {
+    padding-top:50px;
+}
+
+.filled {
+    padding-top: 50px;
+}
+.regular-donuts,
+.filled-donuts {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.filled-donuts {
+    padding-bottom: 150px;
+}
+
+.regular-donut-container {
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+    font-family: system-ui;
+    color:rgb(84, 101, 228);
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.regular-donut-container:hover {
+    cursor: pointer;
+    transform: rotate(8deg);
+}
+
+.handmade-donuts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.filleddonut {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

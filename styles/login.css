@@ -1,0 +1,65 @@
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+h1{
+    font-family: system-ui;
+    padding-top: 15px;
+    color: rgb(84, 101, 228);
+    padding-left: 150px;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: system-ui;
+}
+form input{
+    width: 100%;
+    padding: 18px 10px 18px 10px;
+    border: none;
+    border: 2px solid rgb(146, 50, 66);
+    border-radius: 6px;
+    outline: none;
+}
+
+.submit-button{
+    padding: 20px 60px 20px 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    background-color: rgb(119, 190, 213);
+    transition: 0.5s;
+}
+
+.already-have-an-account {
+    font-family: system-ui;
+    font-size: 18px;
+    padding-top: 100px;
+    margin: auto;
+    padding-left: 575px;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+}

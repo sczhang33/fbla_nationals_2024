@@ -1,0 +1,158 @@
+.recipe-container,
+.all-new-container {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.recipe-text {
+    margin-right: 80px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.donut-2 {
+    width: 600px;
+    height: 370px;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid black;   
+    border-top: 1px solid black;  
+    border-bottom: 1px solid black;  
+}
+
+.since,
+.recipes,
+.recipes-description,
+.view-menu-button {
+    font-family: system-ui;
+    margin-left: 50px;
+}
+
+.recipes-description {
+    padding-right: 38px;
+    line-height: 1.4;
+}
+
+.since {
+    font-size: 27px;
+    padding-top: 70px;
+    padding-bottom: 12px;
+}
+
+.recipes {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.recipes-description {
+    padding-bottom: 20px;
+}
+
+
+.view-menu-button {
+    border: none;
+    border-radius: 70px;
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: white;
+}
+
+.view-menu-button:hover {
+    background-color: rgb(119, 190, 213);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.all-new-text,
+.the-newsletter,
+.the-newsletter-description,
+.view-newsletter-button {
+    font-family: system-ui;
+    margin-left: 50px;
+}
+
+.the-newsletter-description {
+    margin-right: 20px;
+}
+
+.all-new {
+    margin-left: 80px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.all-new-text {
+    font-size: 27px;
+    padding-top: 70px;
+    padding-bottom: 12px;
+}
+
+.the-newsletter {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;   
+}
+
+.the-newsletter-description {
+    padding-bottom: 40px;
+    padding-right: 10px;
+    line-height: 1.4;
+}
+
+.view-newsletter-button {
+    border: none;
+    border-radius: 70px;
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: palevioletred;
+    color: white;
+}
+
+.view-newsletter-button:hover {
+    background-color: rgb(119, 190, 213);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.donut-3 {
+    width: 600px;
+    height: 370px;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    border-right: 1px solid black;   
+    border-top: 1px solid black;  
+    border-bottom: 1px solid black;  
+}
+
+.donut-4 {
+    width: 1100px;
+    height: 370px;
+    object-fit: cover;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    border-right: 1px solid black;   
+    border-top: 1px solid black;  
+    border-bottom: 1px solid black;
+}
+
+
+

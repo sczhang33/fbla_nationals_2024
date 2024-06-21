@@ -1,0 +1,92 @@
+.newsletter-title {
+    font-size: 40px;
+}
+
+.newsletter-newsletter {
+    font-size: 37px;
+}
+
+.newsletter-description {
+    text-align: left;
+    width: 500px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.signup-box{
+    width: 360px;
+    height: 620px;
+    border-radius: 3px;
+    background-color: lightcoral;
+    padding-left: 100px;
+}
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.submit-button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+.submit-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.submit-button:active{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);  
+}
+
+p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.para-2{
+    padding-left: 100px;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a{
+    color: #49c1a2;
+}

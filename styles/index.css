@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.menu-top {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(101, 38, 55);
+    right: 0;
+    left: 0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    z-index: 100;
+}
+
+.carollee-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 400px;
+}
+
+.navigation-container a {
+    font-family: system-ui;
+    font-size: 24px;
+    padding-right: 15px;
+    padding-left: 15px; 
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.15s;
+    
+}
+
+.navigation-container a:hover {
+    text-decoration: underline;
+}
+
+.order-now-button {
+    background-color: palevioletred;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 45px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px pink;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.order-now-button:hover {
+    cursor: pointer;
+    background-color: rgb(119, 190, 213);
+    transition: 0.5s;
+}
+.header {
+    color: white;
+    background-image: url(../FBLAImages/carollee-building.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 230px;
+    padding-bottom: 180px;
+}
+
+.title,
+.title-smalltext,
+.title-under {
+    text-align: center;
+}
+
+.title-smalltext {
+    font-family: 'Cedarville Cursive';
+    font-size: 30px;
+}
+
+.title {
+    font-size: 60px;
+    font-family: system-ui;  
+}
+
+.title-under {
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'Protest Riot';
+    letter-spacing: 2.5px;
+}
+
+
+.section1{
+    display: flex;
+    padding-top: 40px;
+}
+
+.donutstack {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.ourshop-container {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.our-shop1,
+.our-shop2 {
+    font-family: system-ui;
+    font-size: 40px;
+}
+
+.our-shop1 {
+    padding-bottom: 10px;
+}
+
+.para1-container {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.para1,
+.para2,
+.para3 {
+    font-family: system-ui;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.para1,
+.para2 {
+    padding-bottom: 12px;
+}
+
+.store-hours-container {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.store-hours-title {
+    color:rgb(84, 101, 228);
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.time-container {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
